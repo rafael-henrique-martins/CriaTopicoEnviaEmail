@@ -36,7 +36,7 @@ public class SNSServiceimpl implements SNSService {
 		snsClient.subscribe(subscribeRequest);
 
 //      publicando uma mensagem no TOPICO
-//		snsClient.publish(TOPIC_ARN_EMAIL, EMAIL_MESSAGE, EMAIL_SUBJECT);
+//		snsClient.publish(TOPIC_ARN_EMAIL, EMAIL_MESSAGE + email, EMAIL_SUBJECT);
 
         return "Sucessoo!!";
     }
